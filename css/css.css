@@ -1,0 +1,43 @@
+.bor2{
+	border: 1px solid gray;
+}
+.bor1{
+	border-right: 1px dashed ;
+}
+.bor{
+	border-right: 1px dashed;
+	margin-left: -100px; 
+}
+.col{
+	width: 1000px;
+	height: 70px;
+}
+#t1{
+	width: 800px;
+	height: 100px;
+}
+#t2{
+	width: 800px;
+	height: 70px;
+}
+#t3{
+	width: 800px;
+	height: 100px;
+}
+#t4{
+	width: 500px;
+	height: 250px;
+}
+.pit{
+	width: 150px;
+	height: 60px;
+}
+.wid{
+	width: 400px;
+}
+.pos{	
+	margin-left: 5px;
+}
+.fz-14{
+	font-size: 14px;
+}
