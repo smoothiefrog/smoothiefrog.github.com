@@ -1,6 +1,6 @@
 body{
 	background: #99bd90;
-	font-family: "KaiTi";
+	font-family: "Microsoft YaHei";
 }
 .ui-content{
 	margin-bottom: 20px; 
@@ -139,6 +139,7 @@ body{
 	background: #ffffff;
 	border: solid 1px black;
 	display: flex;
+	font-weight: bold;
 }
 .ui-2{
 	width: 370px;
@@ -147,7 +148,7 @@ body{
 	color: #f70b42;
 	border: solid 1px black;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 .ui-3{
 	width: 370px;
@@ -170,7 +171,7 @@ body{
 	font-size: 24px;
 }
 .ui-3-1-m2{
-	font-size: 8px;
+	font-size: 15px;
 	font-weight: 100;
 	margin-top: 14px;
 	text-decoration:line-through;
@@ -186,6 +187,7 @@ body{
 	color: black;
 }
 .ui-container{
+	border: solid 1px #9f9f9f;  
 	background: #f2f2f2;
 	margin: 20px;
 	width: 1230px;
@@ -194,4 +196,14 @@ body{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
+}
+.solidwidth{
+	border-width: 0px;
+}
+.whiteback{
+	background: #ffffff;
+}
+.backbold{
+	color: black;
+	font-weight: 100;
 }
