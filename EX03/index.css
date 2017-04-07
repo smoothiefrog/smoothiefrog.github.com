@@ -1,13 +1,17 @@
 body{
-	font-family: "Microsoft JhengHei";
+	font-family: "KaiTi";
 }
 .frame1{
-	border: 1px solid black;
+	border: 1px solid #9f9f9f;
 }
 .frame2{
-	border-right: 1px solid black;
-	border-left: 1px solid black;
-	border-bottom: 1px solid black;
+	border-right: 1px solid #9f9f9f;
+	border-left: 1px solid #9f9f9f;
+	border-bottom: 1px solid #9f9f9f;
+}
+.frame3{
+	border-right: 1px solid #9f9f9f;
+	border-left: 1px solid #9f9f9f;
 }
 .first{
 	width: 400px;
@@ -21,7 +25,7 @@ body{
 	text-align: center;
 }
 .b0{
-	background: #dbd2d2;
+	background: #f7f7f7;
 }
 .p1{
 	position: absolute;
@@ -29,7 +33,7 @@ body{
 	margin-left: 25px; 
 	width: 350px;
 	height: 25px;
-	background: lightgray;
+	background: #ffffff;
 }
 .p2{
 	position: absolute;
@@ -37,7 +41,7 @@ body{
 	margin-left: 25px; 
 	width: 350px;
 	height: 25px;
-	background: lightgray;
+	background: #ffffff;
 }
 
 .second{
@@ -59,14 +63,14 @@ body{
 	margin-top: -100px;
 	width: 230px;
 	height: 25px;
-	background: lightgray;
+	background: #ffffff;
 }
 .s2t{
 	margin-left: 130px;
 	margin-top: 20px;
 	width: 230px;
 	height: 25px;
-	background: lightgray;
+	background: #ffffff;
 }
 .p3{
 	color: white;
@@ -86,7 +90,7 @@ body{
 	margin-left: 50px; 
 	width: 300px;
 	height: 35px;
-	background: lightgray;
+	background: #ffffff;
 }
 
 .fourth{
@@ -120,9 +124,9 @@ body{
 .border1{
 	box-sizing: border-box;
 	border-style: solid;
-	border-right-color: black;
+	border-right-color: #9f9f9f;
 	border-right-width: 1px;
-	border-bottom-color: black;
+	border-bottom-color: #9f9f9f;
 	border-bottom-width: 1px;
 	border-top-width: 0px;
 	border-left-width: 0px;
@@ -131,7 +135,7 @@ body{
 	box-sizing: border-box;
 	border-style: solid;
 	border-right-width: 0px;
-	border-bottom-color: black;
+	border-bottom-color: #9f9f9f;
 	border-bottom-width: 1px;
 	border-top-width: 0px;
 	border-left-width: 0px;
