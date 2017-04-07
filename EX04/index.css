@@ -1,0 +1,74 @@
+body{
+	background: #99bd90;
+	font-family: "Microsoft JhengHei";
+}
+.ui-main{
+	width: 390px;
+	height: 370px;
+	background: #ffffeb;
+	border: solid 1px black;
+}
+.ui-main-head{
+	width: 390px;
+	height: 260px;
+}
+.ui-main-foot{
+	width: 390px;
+	height: 110px;
+	background: #ffe6f4;
+	display: flex; 
+	/*  flex-direction: column;  */
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.ui-1{
+	width: 370px;
+	height: 20px;
+	background: #ffffff;
+	border: solid 1px black;
+}
+.ui-2{
+	width: 370px;
+	height: 20px;
+	background: #ffffff;
+	color: #f70b42;
+	border: solid 1px black;
+}
+.ui-3{
+	width: 370px;
+	height: 30px;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	border: solid 1px black;
+}
+.ui-3-1:before{
+	font-size: 22px;
+	content: "￥";
+	color: #f70b42;
+}
+.ui-3-1{
+	display: flex;
+}
+.ui-3-1-m1{
+	color: #f70b42;
+	font-size: 22px;
+}
+.ui-3-1-m2{
+	font-size: 8px;
+	font-weight: 100;
+	margin-top: 10px;
+	text-decoration:line-through;
+}
+
+.ui-3-2{
+	color: #f70b42;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.ui-3-2:after{
+	font-weight: 100;
+	content: "件已售";
+	color: black;
+}
