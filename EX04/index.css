@@ -3,6 +3,7 @@ body{
 	font-family: "KaiTi";
 }
 .ui-content{
+	margin-bottom: 20px; 
 	width: 800px;
 	height: 600px;
 	background: #cdd3f5;
@@ -133,15 +134,12 @@ body{
 	justify-content: center;
 	align-items: center;
 }
-.ui-1:before{
-	content: "";
-
-}
 .ui-1{
 	width: 370px;
 	height: 20px;
 	background: #ffffff;
 	border: solid 1px black;
+	display: flex;
 }
 .ui-2{
 	width: 370px;
@@ -149,6 +147,8 @@ body{
 	background: #ffffff;
 	color: #f70b42;
 	border: solid 1px black;
+	display: flex;
+	justify-content: space-between;
 }
 .ui-3{
 	width: 370px;
