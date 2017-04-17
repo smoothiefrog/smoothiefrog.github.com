@@ -70,18 +70,17 @@ body{
 .bac{
 	background: #c0c0c0;
 }
-
 .content-2{
 	width: 470px;
 	height: 240px;
 	margin: auto;
 	border: solid black 1px;
 	background: white;
-
 }
 .content-top{
 	width: 470px;
 	height: 200px;
+	overflow: auto;
 }
 .content-line{
 	margin: 5px;
