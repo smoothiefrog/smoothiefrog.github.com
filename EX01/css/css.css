@@ -1,0 +1,137 @@
+
+body{
+	margin-left: 400px;
+	width: 600px;
+	height: 900px;
+}
+.frame1{
+	border: 1px solid black;
+}
+.frame2{
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.frame3{
+	border-bottom: 1px solid black;	
+}
+.first{
+	width: 400px;
+	height: 100px;
+}
+.p1{
+	position: absolute;
+	margin-top:40px;
+	margin-left: 50px; 
+	width: 300px;
+	height: 25px;
+	background: lightgray;
+}
+.p2{
+	position: absolute;
+	margin-top:70px;
+	margin-left: 50px; 
+	width: 300px;
+	height: 25px;
+	background: lightgray;
+}
+
+.second{
+	width: 400px;
+	height: 200px;
+}
+.same div{
+	float:left;
+	text-align:center;
+}
+.s1{
+	width: 580px;
+	height: 100px;
+}
+.pit{
+	width: 100px;
+	height: 130px;
+	margin: 10px;
+	background: orange;
+}
+.s2f{
+	margin-left: 130px;
+	margin-top: -100px;
+	width: 230px;
+	height: 25px;
+	background: lightgray;
+}
+.s2t{
+	margin-left: 130px;
+	margin-top: 20px;
+	width: 230px;
+	height: 25px;
+	background: lightgray;
+}
+.p3{
+	margin-top: 45px; 
+	margin-left: 45px; 
+	width: 80px;
+	height: 30px;
+	background: orange;
+}
+
+.third{
+	width: 400px;
+	height: 50px;
+}
+.pp{
+	position: absolute;
+	margin-top:5px;
+	margin-left: 50px; 
+	width: 300px;
+	height: 35px;
+	background: lightgray;
+}
+
+.fourth{
+	width: 400px;
+	height: 400px;
+}
+.fouth1{
+	width: 400px;
+	height: 280px;
+}
+.blo2{
+	width: 250px;
+	height: 120px;
+	margin: 10px;
+}
+.blo1{
+	width: 250px;
+	height: 60px;
+	margin: 10px;
+}
+.h{
+	height: 70px;
+	float: left;
+}
+.pits{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+	background: orange;
+}
+
+.big {
+	background-color: blue;
+	width: 160px;
+	height: 200px;
+	float: left;
+}
+
+.small {
+	background-color: pink;
+	width: 80px;
+	height: 100px;
+	float: left;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
