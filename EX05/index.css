@@ -58,7 +58,7 @@ body{
 	border-right-width: 1px;
 	border-bottom-width: 0px;
 }
-.content-down{
+.content-1-down{
 	width: 470px;
 	height: 240px;
 	background: white;
@@ -78,4 +78,44 @@ body{
 	margin: auto;
 	border: solid black 1px;
 	background: white;
+	
+}
+.content-top{
+	width: 470px;
+	height: 200px;
+}
+.content-line{
+	margin: 5px;
+	height: 30px;
+	display: flex;
+	flex-direction: row;
+}
+.number{
+	width: 30px;
+	height: 30px;
+	border: solid black 1px;
+	line-height: 30px;
+}
+.emp{
+	width: 360px;
+	height: 30px;
+	border: solid black 1px;
+	border-left-width: 0px;
+}
+.delete{
+	width: 60px;
+	height: 30px;
+	border: solid black 1px;
+	border-left-width: 0px;
+	line-height: 30px;
+}
+.content-2-down{
+	margin-left: 350px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 30px;
+	background: #339966;
+	line-height: 30px;
+	color: white;
+	border: solid black 1px;
 }

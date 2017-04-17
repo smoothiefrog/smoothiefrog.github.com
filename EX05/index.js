@@ -1,4 +1,5 @@
 
+var sum = 3;
 $(init) 
 function init() {
 	$(".block").click(function(){
@@ -34,8 +35,24 @@ function init() {
 	});
 
 	$(".navigation").click(function(){
-		$(".content-down").text($(this).index() + 1);
+		var num = $(this).index() + 1;
+		$(".content-1-down").text(num);
 		$(".bac").removeClass("bac");
 		$(this).addClass("bac");
+	});
+
+	$(".content-top").on('click', '.delete',function() {
+		$(this).parent().remove();
+		$(".content-line").each(function(){
+			var ans = $(this).index() + 1;
+			$(this).children(".number").text(ans);
+		});
+		sum--;
+	});
+
+	$(".content-2-down").on('click',function() {
+		sum++;
+		var newsth = $("<div class='content-line'><div class = \"number\"> "+ sum +" </div>" + "<div class = \"emp\"></div> " + "<div class = \"delete\">Delete</div></div>");
+		$(".content-top").append(newsth);
 	});
 }
