@@ -15,8 +15,8 @@ function init() {
 				'z-index': '2',
 			},'slow');
 			$(this).css('background','#808080');
-			$(this).css('border-width','5px');
-			$(this).css('border-color','white');
+			$(this).css('border-width','10px');
+			$(this).css('border-color','#ffffff');
 		}
 		else
 		{
@@ -29,7 +29,7 @@ function init() {
 			},'slow');
 			$(this).css('background','#c0c0c0');
 			$(this).css('border-width','1px');
-			$(this).css('border-color','black');
+			$(this).css('border-color','#7c7c7c');
 		}
 		this.on = !this.on;
 	});
