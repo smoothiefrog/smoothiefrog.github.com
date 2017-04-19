@@ -50,7 +50,7 @@ function init() {
 		sum--;
 	});
 
-	$(".content-2-down").on('click',function() {
+	$(".content-2-down").click(function() {
 		sum++;
 		var newsth = $("<div class='content-line'><div class = \"number\"> "+ sum +" </div>" + "<div class = \"emp\"></div> " + "<div class = \"delete\">Delete</div></div>");
 		$(".content-top").append(newsth);
