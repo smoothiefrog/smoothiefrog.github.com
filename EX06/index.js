@@ -7,15 +7,15 @@ function init() {
 			this.on = false;
 		if(this.on === false)
 		{
+			$(this).css('z-index','2');
 			$(this).animate({
 				width: '160px',
 				height: '160px',
 				left: '-20px',
 				top: '-20px',
-				'z-index': '2',
+				'border-width': '10px',
 			},'slow');
 			$(this).css('background','#808080');
-			$(this).css('border-width','10px');
 			$(this).css('border-color','#ffffff');
 		}
 		else
@@ -26,9 +26,9 @@ function init() {
 				left: '0px',
 				top: '0px',
 				'z-index': '1',
+				'border-width': '1px',
 			},'slow');
 			$(this).css('background','#c0c0c0');
-			$(this).css('border-width','1px');
 			$(this).css('border-color','#7c7c7c');
 		}
 		this.on = !this.on;
