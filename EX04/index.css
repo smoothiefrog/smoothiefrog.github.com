@@ -133,6 +133,9 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+.ui-1:before{
+	content: ' ';
+}
 .ui-1{
 	width: 370px;
 	height: 20px;
@@ -140,6 +143,7 @@ body{
 	border: solid 1px black;
 	display: flex;
 	font-weight: bold;
+	font-size: 12px;
 }
 .ui-2{
 	width: 370px;
